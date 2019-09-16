@@ -1,0 +1,18 @@
+---
+subtitle: No homepage, yet.
+date: 2018-08-22 12:24:50
+layout: layouts/base.njk
+templateEngineOverride: njk
+---
+{% include "header.njk" %}
+<div class"wrapper">
+<div id="seminars-embed">
+{%for item in seminars.items%}
+<p class="vf-summary__date">{{item.date}} - {{item.room}}</p>
+<p class="vf-summary__date"></p>
+<h6 class="vf-summary">{{item.title}}</h6>
+<p class="vf-summary__date">{{item.firstname}} {{item.name}}</p>
+<hr>
+{%endfor%}
+</div>
+</div>
