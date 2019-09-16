@@ -627,6 +627,14 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-font-plex-sans/-/vf-font-plex-sans-1.0.0-beta.4.tgz#8a6984935bab1212f21dacdc66fc11eb74463210"
   integrity sha512-PRrkBKAVfRY6K7ySjVi6UElxCyIoIRpbryVAa9S/CnamcwmPZf0EIzpiPq+nffM66J/7IJ58i+AWOMgBafffDw==
 
+"@visual-framework/vf-form@^0.0.26":
+  version "0.0.26"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-form/-/vf-form-0.0.26.tgz#928f15c5e5bfafcd17f8c63446fa6e6618e19876"
+  integrity sha512-5ePgXVowSwiIO4plHqvvFQP5W8MwQ6wt1Sqk3zkcWhvlx+Dr8uDlCs2y1eqZ+cyblTWMq6RXitSBcIPhUvi1gA==
+  dependencies:
+    "@visual-framework/vf-sass-config" "^0.0.22"
+    node-normalize-scss "^8.0.0"
+
 "@visual-framework/vf-form__checkbox@^1.0.0-alpha.4":
   version "1.0.0-alpha.4"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-form__checkbox/-/vf-form__checkbox-1.0.0-alpha.4.tgz#1d2f7804a8a2d23ac0904b81a4fc4b8047e8d80b"
@@ -755,6 +763,13 @@
   version "1.0.0-rc.4"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-no-js/-/vf-no-js-1.0.0-rc.4.tgz#29ddab3abbc489fa20bdee5d29fec233ee8c2aae"
   integrity sha512-YExYbRpdl/80OEIEDevzL58Ca5D+38+iQPlG3aLc0bQNNJlfIerLqKri8nVuX+PAeWR+20g9rjxxfOJ253dwpw==
+
+"@visual-framework/vf-sass-config@^0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-config/-/vf-sass-config-0.0.22.tgz#afa6d67607264021c68b2751c7f86356286199d0"
+  integrity sha512-QvuP4Kp7Y/qbW/jrM7PaQ9k5eA2hxttqpv0TEkmjVcYVbKPQkS1x82IvgPKsXe2wuh4o4hrzwxfgo6b7tYWRcg==
+  dependencies:
+    node-normalize-scss "^8.0.0"
 
 "@visual-framework/vf-sass-config@^1.0.0-beta.4":
   version "1.0.0-beta.4"
@@ -7525,6 +7540,11 @@ node-gyp@^5.0.2, node-gyp@^5.0.3:
 node-localstorage@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/node-localstorage/-/node-localstorage-0.6.0.tgz#45a0601c6932dfde6644a23361f1be173c75d3af"
+
+node-normalize-scss@^8.0.0:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/node-normalize-scss/-/node-normalize-scss-8.0.1.tgz#006cd8da0fd7a4ca859d936ae7f6a6a6a00cf5d6"
+  integrity sha512-viPhFNDOuHAHxW8J0Yk4qfT4YWO7y21fpjQGRK9hM9jYKeQR2wdw3ughQnCW4roz5cCNSdJZccfRZOXj83PEcg==
 
 node-notifier@^5.2.1:
   version "5.4.0"
