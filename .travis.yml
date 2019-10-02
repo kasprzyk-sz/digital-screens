@@ -24,4 +24,4 @@ deploy:
       - node_modules
   on:
     branch:
-      - master
+      - master g
